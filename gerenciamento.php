@@ -31,7 +31,7 @@ if(isset($_POST['btnGerarRemessa'])){
         'idEmissao'           => '2', // 1 - banco emite, 2 - cliente emite 
         'idPostagem'          => '0', // codigo para identificar o responsável pela distribuição do boleto: 0 - postagem pelo beneficiario, 1 - pagador via correio, 2 - beneficiario via agência CAIXA, 3 - pagador via email 
         'taxaPermanencia'     => '00', // sempre dois zeros
-        'identificacao'       => 'XXXXXXXXXXXXXXXXXXXXXXXXX', // idUnimedCobranca com espaços em brancos depois do número para preencher todas as 25 casas
+        'identificacao'       => 'XXXXXXXXXXXXXXXXXXXXXXXXX', // identificacao da cobranca com espaços em brancos depois para preencher todas as 25 casas
         'nossoNumeroCC'       => '14', // 11 ou 14
         'nossoNumero'         => 'XXXXXXXXXXXXXXX', // nosso número com 0 a esquerda para completar 15 casas
         'vazios'              => '  ', // sempre dois espaços vazios
